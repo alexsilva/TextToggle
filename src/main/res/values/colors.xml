@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="before_selection">#ffffffff</color>
+    <color name="after_selection">#ff00ff33</color>
+
+    <color name="color_green">#ff77ff52</color>
+    <color name="color_white">#ffffffff</color>
+
+</resources>
