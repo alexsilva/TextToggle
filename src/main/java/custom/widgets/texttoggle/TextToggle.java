@@ -26,8 +26,6 @@ public class TextToggle extends LinearLayout implements View.OnClickListener {
     }
 
     protected void initialize(Context context) {
-        isInEditMode();
-
         LayoutInflater inflater = (LayoutInflater)
                 context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         inflater.inflate(R.layout.texttoggle, this, true);
