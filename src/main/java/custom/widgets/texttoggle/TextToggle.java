@@ -47,6 +47,11 @@ public class TextToggle extends LinearLayout implements View.OnClickListener {
         return color == colorAfter;
     }
 
+    public void setPressed(boolean pressed) {
+        TextView text = (TextView) findViewById(R.id.order_az);
+        text.setTextColor((color = pressed ? colorAfter : colorBefore));
+    }
+
     @Override
     public void onClick(View v) {
         int viewId = v.getId();
