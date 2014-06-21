@@ -39,6 +39,10 @@ public class TextToggle extends LinearLayout implements View.OnClickListener {
         colorAfter = getResources().getColor(R.color.after_selection);
     }
 
+    public void setText(CharSequence text) {
+        ((TextView) findViewById(R.id.order_az)).setText(text);
+    }
+
     public void setOnToggleListener(OnToggleListener onToggleListener) {
         this.onToggleListener = onToggleListener;
     }
