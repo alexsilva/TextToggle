@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    >
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:id="@+id/order_az_button"
+        android:id="@+id/layout_button"
         android:background="@drawable/states"
         android:padding="5dp">
 
         <TextView
-            android:id="@+id/order_az"
+            android:id="@+id/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:focusable="true"
-            android:text="@string/order_text_az"
+            android:text="@string/text_az"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@color/before_selection"
             android:textStyle="bold" />
     </LinearLayout>
-
 </LinearLayout>

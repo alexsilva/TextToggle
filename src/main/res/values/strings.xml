@@ -2,6 +2,6 @@
 <resources>
 
     <string name="app_name">JvTextToggle</string>
-    <string name="order_text_az" translatable="false">A-Z</string>
+    <string name="text_az" translatable="false">A-Z</string>
 
 </resources>
