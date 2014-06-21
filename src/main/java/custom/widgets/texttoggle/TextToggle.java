@@ -1,6 +1,8 @@
 package custom.widgets.texttoggle;
 
+import android.annotation.TargetApi;
 import android.content.Context;
+import android.os.Build;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,6 +28,11 @@ public class TextToggle extends LinearLayout implements View.OnClickListener {
     public TextToggle(Context context, AttributeSet attrs) {
         super(context, attrs);
         initialize(context);
+    }
+
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+    public TextToggle(Context context, AttributeSet attrs, int defStyle) {
+        super(context, attrs, defStyle);
     }
 
     protected void initialize(Context context) {
