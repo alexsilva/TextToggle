@@ -14,13 +14,9 @@ import android.widget.TextView;
  */
 public class TextToggle extends LinearLayout implements View.OnClickListener {
 
-    public interface OnToggleListener {
-        public void onToggle(TextToggle view, boolean pressed);
-    }
     OnToggleListener onToggleListener;
     View layoutButton;
     TextView textView;
-
     int color, colorBefore, colorAfter;
 
     public TextToggle(Context context) {
@@ -81,5 +77,9 @@ public class TextToggle extends LinearLayout implements View.OnClickListener {
                 onToggleListener.onToggle(this, isPressed());
             }
         }
+    }
+
+    public interface OnToggleListener {
+        public void onToggle(TextToggle view, boolean pressed);
     }
 }
