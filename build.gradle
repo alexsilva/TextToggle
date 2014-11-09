@@ -10,12 +10,12 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 21
+    compileSdkVersion 20
     buildToolsVersion '21.0.2'
     defaultConfig {
         applicationId 'custom.widgets.texttoggle'
         minSdkVersion 9
-        targetSdkVersion 21
+        targetSdkVersion 20
         versionCode 1
         versionName '1.0'
     }
